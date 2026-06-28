@@ -186,6 +186,7 @@ Step 4 — Run Analysis
         │
         └── Frontend → POST /orchestrate/analyze (port 8005)
                 Orchestrator → Module 2 Ghost Borrower (port 8000)  [MSME only]
+                Orchestrator → Module 3 Multimodule Correlation (port 8004)
                 Orchestrator → Module 4 Fraud Graph   (port 8001)
                 Orchestrator → Scoring Engine          (port 8002)
                 ← trust_score, risk_tier, module flags
