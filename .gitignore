@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Deepfake generated files
+Deepfake-/uploads/
+Deepfake-/extracted_faces/
+Deepfake-/extracted_frames/
+Deepfake-/module1/__pycache__/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
