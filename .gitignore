@@ -16,3 +16,27 @@ Deepfake-/module1/__pycache__/
 # OS
 Thumbs.db
 .DS_Store
+
+# ----------------------------
+# Local-only files
+# ----------------------------
+
+datasets/
+frontend/
+lib/
+
+*.pkl
+*.mp4
+*.html
+*.docx
+
+ITR (2).pdf
+Working-Report-2022_30-June_English_Single-Page-Artwork_Low-res (1).pdf
+idea_submission.pdf
+
+app.py
+generate_dataset.py
+module3_debug.py
+
+lending_club_loan_two.csv
+syntheticfinance.csv
