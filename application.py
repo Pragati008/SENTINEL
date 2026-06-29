@@ -1380,10 +1380,10 @@ def page_settings():
             ("Ghost Borrower Detection","Validates MSME business existence via GST and MCA signals",True),
             ("Fraud Graph Intelligence","Detects hidden connections between applications and known fraud entities",True),
         ]
-        for icon,name,desc,default in modules:
+        for name,desc,default in modules:
             col_info,col_toggle = st.columns([4,1])
             with col_info:
-                st.markdown(f'<div style="padding:4px 0"><div style="font-size:13px;font-weight:500;color:#FFFFFF;">{icon} &nbsp;{name}</div><div style="font-size:12px;color:#6B7280;margin-top:3px;">{desc}</div></div>', unsafe_allow_html=True)
+                st.markdown(f'<div style="padding:4px 0"><div style="font-size:13px;font-weight:500;color:#FFFFFF;"> &nbsp;{name}</div><div style="font-size:12px;color:#6B7280;margin-top:3px;">{desc}</div></div>', unsafe_allow_html=True)
             with col_toggle:
                 st.toggle("", value=default, key=f"toggle_{name}", disabled=not is_admin)
             st.markdown("<div style='border-bottom:1px solid #1E2130;margin:8px 0'></div>", unsafe_allow_html=True)
