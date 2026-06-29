@@ -1,0 +1,8 @@
+{
+    "module": "Deepfake Detection",
+    "prediction": "REAL",
+    "confidence": 2.4,
+    "trust_score": 95,
+    "risk_level": "LOW",
+    "flagged_frames": []
+}
